@@ -10,7 +10,7 @@ import (
 var DB *gorm.DB
 
 func ConnectDB() {
-	dsn := "sql12828936:aF8eADc2mG@tcp(sql12.freesqldatabase.com:3306)/sql12828936?parseTime=true"
+	dsn := "sql12828898:1l2VCckdZs@tcp(sql12.freesqldatabase.com:3306)/sql12828898?parseTime=true"
 
 	db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
 	if err != nil {
